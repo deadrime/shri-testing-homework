@@ -6,7 +6,9 @@
   "scripts": {
     "test": "jest",
     "start": "node ./bin/www",
-    "devstart": "ndb ./bin/www"
+    "devstart": "ndb ./bin/www",
+    "hermione": "./node_modules/.bin/hermione ./hermione/",
+    "hermione-gui": "./node_modules/.bin/hermione gui ./hermione/"
   },
   "keywords": [],
   "author": "",
@@ -17,6 +19,9 @@
   },
   "devDependencies": {
     "jest": "^23.6.0",
+    "hermione": "^0.90.1",
+    "hermione-custom-commands": "file:hermione-custom-commands",
+    "html-reporter": "^2.22.0",
     "ndb": "^1.0.26"
   }
 }
