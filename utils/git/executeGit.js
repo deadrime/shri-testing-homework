@@ -8,7 +8,6 @@ function executeGit(cmd, args) {
       if (err) {
         reject(err);
       }
-
       resolve(stdout.toString());
     });
   });

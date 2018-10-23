@@ -1,4 +1,4 @@
-const { buildList } = require('../utils/navigation/')
+const { buildList } = require('.')
 
 const expectedInput = new Array(10).fill(0).map((i, index) => {
   return {
